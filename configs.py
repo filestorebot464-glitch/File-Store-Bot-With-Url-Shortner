@@ -5,17 +5,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
+  API_ID = int(os.environ.get("API_ID", "29109000"))
+  API_HASH = os.environ.get("API_HASH", "81018d37cec2565db4785001413ea299")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "As_File_stores_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1003834742484"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1900256573"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://filestorebot464_db_user:12435678@cluster0.q1mm6rf.mongodb.net/?appName=Cluster0")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1003834717226")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003834742484"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -27,7 +27,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 My Name: [FileStore Bot](https://t.me/{As_File_stores_bot})
 │
 ├🔸 Language: [Python 3](https://www.python.org)
 │
